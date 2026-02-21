@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#020810"/>
+  <defs>
+    <radialGradient id="g" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00d4ff" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#020810" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#g)"/>
+  <!-- Shield shape -->
+  <path d="M256 60 L420 130 L420 280 Q420 390 256 460 Q92 390 92 280 L92 130 Z"
+        fill="none" stroke="#00d4ff" stroke-width="12" stroke-linejoin="round"/>
+  <path d="M256 90 L395 148 L395 278 Q395 372 256 432 Q117 372 117 278 L117 148 Z"
+        fill="#0a1628"/>
+  <!-- V letter -->
+  <text x="256" y="310" text-anchor="middle" font-family="Arial Black" font-size="180"
+        font-weight="900" fill="white" opacity="0.95">V</text>
+  <!-- Plane line -->
+  <line x1="100" y1="258" x2="412" y2="258" stroke="#00d4ff" stroke-width="3" opacity="0.6"/>
+  <!-- Glow dots -->
+  <circle cx="256" cy="258" r="4" fill="#00d4ff"/>
+</svg>
